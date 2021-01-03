@@ -1,5 +1,5 @@
 from django.contrib import admin
-from api.models import HabixUser, DailyTasks
+from api.models import HabixUser, DailyTask
 
 admin.site.register(HabixUser)
-admin.site.register(DailyTasks)
+admin.site.register(DailyTask)
